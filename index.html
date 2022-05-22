@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure Hunt</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.pixabay.com/photo/2014/04/02/10/19/treasure-303487_1280.png"/>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <h1>Pirate Treasure Hunt</h1>
+    <img class = "johnny" src="https://assets2.ignimgs.com/2013/08/22/johnny-depp-pirates-1280jpg-882a8c.jpg?width=1280" height="100px" alt="Jack Sparrow" />
+    <h2>Dead Men Tell No Tales</h2>
+    <div class="heard">
+        <ul>
+        <li>Select one box at a time</li>
+        <li>If you hit Black Flag you lose...</li>
+        <li>If you hit an Island, continue the game</li>
+        <li>If you hit the Anchor, YOU WIN!</li>
+        </ul>
+    </div>
+    <div class="btn">
+        <button class = "btn" type="button"          onclick="location.reload()">Restart Game</button>
+    </div>
+    
+<table  >
+    <tr >
+        <td class="gold" id = 0 onclick="treasure(0)"><img src="https://freesvg.org/img/laurent-drapeau-pirate.png" alt="skeleton pirate" height="100px"></td>
+        <td class="gold" id = 1 onclick="treasure(1)"><img src="https://freesvg.org/img/laurent-drapeau-pirate.png" alt="skeleton pirate" height="100px"></td>
+        <td class="gold" id = 2 onclick="treasure(2)"><img src="https://freesvg.org/img/laurent-drapeau-pirate.png" alt="skeleton pirate" height="100px"></td>
+    </tr>
+    <tr>
+        <td class = "booty" id = 3 onclick="treasure(3)"><img src="https://freesvg.org/img/laurent-drapeau-pirate.png" alt="skeleton pirate" height="100px"></td>
+        <td class = "booty" id = 4 onclick="treasure(4)"><img src="https://freesvg.org/img/laurent-drapeau-pirate.png" alt="skeleton pirate" height="100px"></td>
+        <td class = "booty" id = 5 onclick="treasure(5)"><img src="https://freesvg.org/img/laurent-drapeau-pirate.png" alt="skeleton pirate" height="100px"></td>
+    </tr>
+    <tr>
+        <td class = "amber" id = 6 onclick="treasure(6)"><img src="https://freesvg.org/img/laurent-drapeau-pirate.png" alt="skeleton pirate" height="100px"></td>
+        <td class = "amber" id = 7 onclick="treasure(7)"><img src="https://freesvg.org/img/laurent-drapeau-pirate.png" alt="skeleton pirate" height="100px"></td>
+        <td class = "amber" id = 8 onclick="treasure(8)"><img src="https://freesvg.org/img/laurent-drapeau-pirate.png" alt="skeleton pirate" height="100px"></td>
+    </tr>
+</table>
+
+<footer>
+    &#169 Corey | Tradena | Nicole
+    <a href="https://www.learnacademy.org">LEARN Academy</a>
+</footer>
+
+</body>
+<script type="text/javascript" src="treasureHunt.js"></script>
+</html>

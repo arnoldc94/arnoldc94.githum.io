@@ -1,0 +1,67 @@
+body {
+  font-family: 'Macondo', cursive;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrOXisgztQI160qK5myAHPOJ1v9zVUquKgmQ&usqp=CAU);
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: 100% 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+}
+
+.johnny {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 500px;
+    height: 100%;
+    box-shadow: grey 5px 5px;
+}
+  
+
+footer {
+  color:#ff0000;
+  
+}
+.link {
+  color: #ff0000;
+  
+}
+h2{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.heard{
+  align-content: center;
+  
+}
+table {
+  display:flex;
+  justify-content:center
+}
+button{
+  background-color:black;
+  color: white;
+}
+
+
+
+.heard {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
